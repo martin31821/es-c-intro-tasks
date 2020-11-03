@@ -2,6 +2,11 @@
 
 Ziel dieser Übungen ist es, Ihnen den Umgang mit der Programmiersprache C zu vermitteln. Dazu sind von Ihnen selbstständig kleinere Aufgaben zu lösen.
 
+## Programmierumgebung
+
+[Hier](https://gitpod.io/#github.com/martin31821/es-c-intro-tasks) klicken, um die Web-Programmierumgebung zu öffnen.
+Danach können sie mit dem Befehl `make taskN` die Aufgabe N kompilieren und mit `make taskN-run` die Aufgabe ausführen.
+
 ## Aufgabe 1 - Grundlagen
 
 In `task1.c` finden Sie eine Vorlage mit einem Codeskelett. Vervollständigen Sie diese, sodass die folgenden Anforderungen erfüllt sind:
