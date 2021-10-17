@@ -52,8 +52,9 @@ In dieser Aufgabe soll ein parametrierbares Dreieck auf einer viereckigen Fläch
 
 - Definieren Sie eine Struktur, die einen Punkt im 2D-Raum abbildet (x, y)
     - Die X und Y Koordinaten sollten als Gleitkommazahl (`float/double`)
-- Erstellen Sie eine Funktion, die für vier gegebenen Punkte ermittelt, ob der vierte Punkt innerhalb des durch die ersten drei Punkte aufgespannten Dreiecks liegt.
-    - z.B. `int check_point(point_t *triangle, point_t point_to_check)`
+- Definieren Sie eine Struktur, die aus drei der vorher definierten Punkte ein Dreieck abbildet.
+- Erstellen Sie eine Funktion, die für ein gegebenes Dreieck sowie einen gegebenen Punkt ermittelt, ob der Punkt innerhalb des Dreiecks liegt.
+    - z.B. `int check_point(triangle_t *triangle, point_t point_to_check)`
 - Erstellen Sie eine Funktion, die für ein gegebenes Dreieck sowie eine gegebene Auflösung das Dreieck ausgibt.
   - Für jeden Bildpunkt in x/y-Richtung ist jeweils ein ASCII-Zeichen auszugeben, und zwar ein `.` für 'außerhalb des Dreiecks' und ein `=` für 'innerhalb des Dreiecks'
   - Nehmen Sie vereinfachend an, dass ihr Bildschirm 80 Zeichen pro Zeile bei 25 Zeilen anzeigen kann.
