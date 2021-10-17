@@ -3,14 +3,11 @@
 #include "common.h"
 
 typedef struct {
-    float x;
-    float y;
+    // TODO: Add x and y fields
 } point_t;
 
 typedef struct {
-    point_t a;
-    point_t b;
-    point_t c;
+    // TODO: add three points here
 } triangle_t;
 
 int check_point(const triangle_t *triangle, point_t point_to_check) {
