@@ -61,6 +61,8 @@ In dieser Aufgabe soll ein parametrierbares Dreieck auf einer viereckigen Fläch
 - Testen Sie Ihre Implementierung mit verschiedenen Eingabedaten.
 - Eine beispielhafte Ausgabe ist im folgenden Bild zu sehen.
 
+**HINWEIS**: [Hier](https://stackoverflow.com/a/2049593) finden Sie Beispielcode für die Logik von `check_point`
+
 ## Aufgabe 3 - Bitmanipulation
 
 In eingebetteten Systemen kommt es oft vor, dass einzelne Werte durch Bitbreiten kleiner als ein Byte repräsentiert werden, z.B. durch einzelne Bits. Daher ist es wichtig, auf einzelne Bits zugreifen und diese manipulieren zu können. Die Vorlage dazu ist in `task3.c` zu finden.
